@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.wrap{
+    width: 100%;
+    overflow: hidden;
+}
+.header{
+    position: relative;
+    width: 1000px;
+    height:80px ;
+    margin: 0 auto;
+    background-color: #cccccc;
+}
+.header a{
+    text-decoration: none;
+    color: red;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 1px solid red;
+    padding: 10px;
+    cursor: pointer;
+}
+.bread{
+    padding: 10px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.content{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.content .content1{
+    width: 1040px;
+    overflow: hidden;
+}
+.content1 .good{
+    float: left;
+    width: 250px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.content1 .good img{
+    width: 210px;
+    height: 210px;
+}
+.content1 .good p{
+    color: red;
+    font-size: 18px;
+}
+.content1 .good h3{
+    font-style: normal;
+    font-size: 16px;
+    width: 210px;
+}
+.content1 .good div{
+    background: url(./cart.png)no-repeat 5px 1px;
+    padding-right:10px ;
+    padding-left: 30px;
+    border: 1px solid #cccccc;
+    width: 80px;
+    font-size: 16px;
+    cursor: pointer;
+}
