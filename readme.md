@@ -77,7 +77,10 @@
 ## git checkout 分支名
 1. 切换分支
 
-## test2分支的修改
 
 ## git merge 分支名
 1. 合并分支
+
+
+## git branch -d 分支名
+1. 删除分支
