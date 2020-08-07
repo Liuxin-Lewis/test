@@ -40,3 +40,18 @@
 ## git reset --hard 版本号
 1. 版本回退 HEAD^回退到上一个版本
 2. 回退到指定版本
+
+
+
+## 主要的几个操作
+1. git init 创建版本库
+2. git add 文件名 -> 工作区提交到暂存区
+3. git commit -m '注释' ->暂存区提交到本地仓库
+
+
+## 远程仓库
+## git remote add origin 仓库地址
+1. 把本地仓库与远程仓库关联 origin是仓库名称可以自己命名
+
+## git remote -v
+1. 查看本地仓库关联的远程仓库地址
